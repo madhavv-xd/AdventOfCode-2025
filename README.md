@@ -1,12 +1,19 @@
-# 🎄 Advent of Code 2025 – C++ Solutions  
+🎄 Advent of Code 2025 – C++ Solutions
 
-![Language](https://img.shields.io/badge/Language-C++17-blue.svg)  
-![Progress](https://img.shields.io/badge/Days%20Completed-01%2F25-green.svg)  
-![Status](https://img.shields.io/badge/Status-Ongoing-yellow.svg)  
+Welcome to my Advent of Code 2025 repository!
+This repo contains my daily solutions to the Advent of Code 2025 programming challenge, written entirely in C++.
 
-This repository contains my solutions for **Advent of Code 2025**, implemented in **C++** using STL and modern practices.
+🧠 About Advent of Code
 
----
+Advent of Code
+ is an annual coding event with fun and progressively challenging puzzles released every day from December 1st to December 25th.
+It helps improve problem-solving, algorithmic thinking, and coding skills — and is also a lot of fun.
 
-## 📂 Repo Structure
+🔧 Tech Stack
+
+Language: C++
+
+Compiler: g++ / MSYS2 / GCC (depending on environment)
+
+Build System (optional): Makefile or manual compilation
 
