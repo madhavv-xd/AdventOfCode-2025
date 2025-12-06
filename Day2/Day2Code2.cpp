@@ -28,13 +28,12 @@ int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    ifstream file("input.txt");
-    string input;
+    // freopen version of input/output
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 
-    if(file.is_open()){
-        getline(file , input);
-        file.close();
-    }
+    string input;
+    getline(cin , input);
 
     vector<pair<ll , ll>>ranges;
     stringstream ss(input);
