@@ -6,8 +6,7 @@ ll checkanddo(vector<vector<string>>& grid , ll rows , ll cols){
     int result = 0; //increase result when the beam is split
 
     for(int i = 0; i < rows; i++){
-        for(int j = 0; j < cols; j++){ ///this is only one parsing  , we have to maintain a while loop to ensure that the code keeps running on that condition
-
+        for(int j = 0; j < cols; j++){ 
             if(i + 1 < rows){ //when i == rows - 1, i+1 becomes rows, which is out of range
                 
                 // FIRST check split condition
